@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdom</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            position: relative;
+            height: 100vh;
+        }
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            background-color: black; /* Fallback háttérszín */
+        }
+        .content {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            height: 100%;
+            position: relative;
+            padding-right: 20px;
+        }
+        .circle-button {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .circle-button:hover {
+            background-color: greenyellow;
+            transform: scale(1.1);
+        }
+        .settings-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 10;
+        }
+        .settings-menu {
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-image: url(beallit.gif);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: none;
+            z-index: 10;
+        }
+        .settings-menu label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .settings-menu input[type="range"] {
+            width: 100%;
+        }
+        .settings-menu button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: rebeccapurple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .settings-menu button:hover {
+            background-color: white;
+        }
+        @media (max-width: 600px) {
+            .circle-button {
+                width: 120px;
+                height: 120px;
+                font-size: 16px;
+            }
+            .settings-menu {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Háttérvideó -->
+    <video id="backgroundVideo" autoplay loop muted>
+        <source src="Névtelen videó – A Clipchamppel készült.mp4" type="video/mp4">
+        A böngésződ nem támogatja a videók lejátszását.
+    </video>
+
+    <!-- Háttérhang -->
+    <audio id="backgroundAudio" autoplay loop>
+        <source src="hatterhang.mp3" type="audio/mpeg">
+        A böngésződ nem támogatja a hangfájlokat.
+    </audio>
+
+    <div class="content">
+        <!-- Játék indító gomb -->
+        <button class="circle-button" onclick="window.location.href='game.html'" aria-label="Játék indítása">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="140" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Beállítások gomb -->
+    <button class="settings-button" onclick="toggleSettingsMenu()" aria-label="Beállítások">
+        ⚙️
+    </button>
+
+    <!-- Beállítások menü -->
+    <div class="settings-menu" id="settingsMenu">
+        <label>
+            Fényerő:
+            <input type="range" id="brightnessControl" min="0.5" max="2" step="0.1" value="1" onchange="updateBrightness()">
+        </label>
+        <label>
+            Hangerő:
+            <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5" onchange="updateVolume()">
+        </label>
+        <button onclick="toggleFullScreen()">Teljes képernyő / Ablakos mód</button>
+    </div>
+
+    <script>
+        // Beállítások menü megjelenítése/elrejtése
+        function toggleSettingsMenu() {
+            const menu = document.getElementById('settingsMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Fényerő beállítása
+        function updateBrightness() {
+            const video = document.getElementById('backgroundVideo');
+            const brightness = document.getElementById('brightnessControl').value;
+            video.style.filter = `brightness(${brightness})`;
+        }
+
+        // Hangerő beállítása
+        function updateVolume() {
+            const video = document.getElementById('backgroundVideo');
+            const audio = document.getElementById('backgroundAudio');
+            const volume = document.getElementById('volumeControl').value;
+            video.volume = volume; // Videó hangerejének beállítása
+            audio.volume = volume; // Háttérhang hangerejének beállítása
+        }
+
+        // Teljes képernyős mód be- és kikapcsolása
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
