@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\exit.jpg" />
+    <None Remove="Images\fn.jpg" />
+    <None Remove="Images\LoginUsers.jpg" />
+    <None Remove="Images\lrn.jpg" />
+    <None Remove="Images\pw.jpg" />
+    <None Remove="Images\users.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\exit.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\fn.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\LoginUsers.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\lrn.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\pw.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\users.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Duplex" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Federation" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.NetNamedPipe" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="6.0.*" />
+  </ItemGroup>
+
+</Project>

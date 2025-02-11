@@ -1,0 +1,428 @@
+[
+  {
+    "ContainingType": "BackupRestoreController",
+    "Method": "SQLBackupAsync",
+    "RelativePath": "api/BackupRestore/Backup/{token},{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackupRestoreController",
+    "Method": "SQLRestoreAsync",
+    "RelativePath": "api/BackupRestore/Restore/{token}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.FileUploadController",
+    "Method": "FileUploadBackEnd",
+    "RelativePath": "api/FileUpload/BackEndServer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.FileUploadController",
+    "Method": "FileUploadFtp",
+    "RelativePath": "api/FileUpload/FtpServer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "GetById",
+    "RelativePath": "api/Jatekosok/{id},{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "GetAll",
+    "RelativePath": "api/Jatekosok/{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "Post",
+    "RelativePath": "api/Jatekosok/{token}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "jatekos",
+        "Type": "castlegameBackend.Models.Jatekosok",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "Put",
+    "RelativePath": "api/Jatekosok/{token}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "jatekos",
+        "Type": "castlegameBackend.Models.Jatekosok",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "Delete",
+    "RelativePath": "api/Jatekosok/{token},{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "GetRanglista",
+    "RelativePath": "api/Jatekosok/ranglista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JatekosokController",
+    "Method": "GetRanglista",
+    "RelativePath": "api/Jatekosok/ranglista/{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JelszoController",
+    "Method": "ElfelejtettJelszo",
+    "RelativePath": "api/Jelszo/{Email}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.JelszoController",
+    "Method": "JelszoMosositas",
+    "RelativePath": "api/Jelszo/{loginName},{oldPassword},{newPassword}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "oldPassword",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPassword",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "castlegameBackend.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.LoginController",
+    "Method": "SaltRequest",
+    "RelativePath": "api/Login/SaltRequest/{loginName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.LogOutController",
+    "Method": "Logout",
+    "RelativePath": "api/LogOut/{uId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.RegistryController",
+    "Method": "Registry",
+    "RelativePath": "api/Registry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "castlegameBackend.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.RegistryController",
+    "Method": "EndOfTheRegistry",
+    "RelativePath": "api/Registry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "felhasznaloNev",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.UserController",
+    "Method": "GetId",
+    "RelativePath": "api/User/{id},{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.UserController",
+    "Method": "GetFull",
+    "RelativePath": "api/User/{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.UserController",
+    "Method": "Post",
+    "RelativePath": "api/User/{token}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "castlegameBackend.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.UserController",
+    "Method": "Put",
+    "RelativePath": "api/User/{token}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "castlegameBackend.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/{token},{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "castlegameBackend.Controllers.UserController",
+    "Method": "GetEmailName",
+    "RelativePath": "EmailName/{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

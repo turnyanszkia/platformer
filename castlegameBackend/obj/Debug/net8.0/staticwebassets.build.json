@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1/Q8mPJjR7n+l8PylFVmpzyxTfQUtcJp6AxHyYTV9fs=",
+  "Source": "castlegameBackend",
+  "BasePath": "_content/castlegameBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

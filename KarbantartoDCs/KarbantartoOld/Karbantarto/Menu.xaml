@@ -1,0 +1,32 @@
+﻿<Window x:Class="Karbantarto.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Karbantarto"
+        mc:Ignorable="d"
+        x:Name="fomenu"
+        Title="Karbantartó rendszer" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Fájl">
+                    <MenuItem Header="_BackUp"/>
+                    <MenuItem Header="_Restore" />
+                    <MenuItem Header="_Kilépés" Click="Exit">
+                        <MenuItem.Icon>
+                            <Image Source="Images\exit.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_AdatMűveletek">
+                    <MenuItem x:Name="mnu_dat_Felh" Header="Felhasználók" IsEnabled="True" Visibility="Visible" Click="felhasznalokKarbantartasa">
+                        <MenuItem.Icon>
+                            <Image Source="Images\users.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+    </Grid>
+</Window>

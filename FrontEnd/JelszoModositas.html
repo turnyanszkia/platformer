@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/build/sha256.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js"
+        integrity="sha512-v8+bPcpk4Sj7CKB11+gK/FnsbgQ15jTwZamnBf/xDmiQDcgOIYufBo6Acu1y30vrk8gg5su4x0CG3zfPaq5Fcg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <form action="">
+        <div>
+            <label>Régi jelszó</label>
+            <input type="password" id="regiJelszo" disabled>
+        </div>
+        <div>
+            <label>Új jelszó</label>
+            <input type="password" id="ujJelszo" disabled>
+        </div>
+        <div>
+            <label>Új jelszó ismét</label>
+            <input type="password" id="ujJelszoIsmet" disabled>
+        </div>
+        <p></p>
+        <div>
+            <button type="button" id="klikkEsemeny" onclick="JelszoModositas()">Jelszó kérése</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+<script src="JelszoModositas.js"></script>

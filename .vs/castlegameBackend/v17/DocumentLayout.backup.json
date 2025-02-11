@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|c:\\users\\bencs\\onedrive\\asztali g\u00E9p\\castlegamebackend\\castlegamebackend\\castlegamebackend\\models\\castlegamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|solutionrelative:castlegamebackend\\models\\castlegamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|c:\\users\\bencs\\onedrive\\asztali g\u00E9p\\castlegamebackend\\castlegamebackend\\castlegamebackend\\controllers\\jatekosokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|solutionrelative:castlegamebackend\\controllers\\jatekosokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|c:\\users\\bencs\\onedrive\\asztali g\u00E9p\\castlegamebackend\\castlegamebackend\\castlegamebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|solutionrelative:castlegamebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|c:\\users\\bencs\\onedrive\\asztali g\u00E9p\\castlegamebackend\\castlegamebackend\\castlegamebackend\\dtos\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|solutionrelative:castlegamebackend\\dtos\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|c:\\users\\bencs\\onedrive\\asztali g\u00E9p\\castlegamebackend\\castlegamebackend\\castlegamebackend\\models\\jatekosok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1AA60B-8BE3-496E-B816-DC15E7974CC5}|castlegameBackend\\castlegameBackend.csproj|solutionrelative:castlegamebackend\\models\\jatekosok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 284,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CastlegameContext.cs",
+              "DocumentMoniker": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Models\\CastlegameContext.cs",
+              "RelativeDocumentMoniker": "castlegameBackend\\Models\\CastlegameContext.cs",
+              "ToolTip": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Models\\CastlegameContext.cs",
+              "RelativeToolTip": "castlegameBackend\\Models\\CastlegameContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:05:38.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JatekosokController.cs",
+              "DocumentMoniker": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Controllers\\JatekosokController.cs",
+              "RelativeDocumentMoniker": "castlegameBackend\\Controllers\\JatekosokController.cs",
+              "ToolTip": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Controllers\\JatekosokController.cs",
+              "RelativeToolTip": "castlegameBackend\\Controllers\\JatekosokController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:56:59.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "castlegameBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "castlegameBackend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:33:43.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Jatekosok.cs",
+              "DocumentMoniker": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Models\\Jatekosok.cs",
+              "RelativeDocumentMoniker": "castlegameBackend\\Models\\Jatekosok.cs",
+              "ToolTip": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\Models\\Jatekosok.cs",
+              "RelativeToolTip": "castlegameBackend\\Models\\Jatekosok.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:00:21.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaderboardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\DTOs\\LeaderboardDTO.cs",
+              "RelativeDocumentMoniker": "castlegameBackend\\DTOs\\LeaderboardDTO.cs",
+              "ToolTip": "C:\\Users\\bencs\\OneDrive\\Asztali g\u00E9p\\castlegameBackend\\castlegameBackend\\castlegameBackend\\DTOs\\LeaderboardDTO.cs",
+              "RelativeToolTip": "castlegameBackend\\DTOs\\LeaderboardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:17:19.45Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

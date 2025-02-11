@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88BECFBC-9D9C-4FBD-9ED5-906E4469A9F9}|CastleLoginClient\\CastleLoginClient.csproj|c:\\users\\vizsga\\desktop\\castlegamebackend\\castleloginclient\\castleloginclient\\usermanagement\\newuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BECFBC-9D9C-4FBD-9ED5-906E4469A9F9}|CastleLoginClient\\CastleLoginClient.csproj|solutionrelative:castleloginclient\\usermanagement\\newuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BECFBC-9D9C-4FBD-9ED5-906E4469A9F9}|CastleLoginClient\\CastleLoginClient.csproj|c:\\users\\vizsga\\desktop\\castlegamebackend\\castleloginclient\\castleloginclient\\usermanagement\\newuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BECFBC-9D9C-4FBD-9ED5-906E4469A9F9}|CastleLoginClient\\CastleLoginClient.csproj|solutionrelative:castleloginclient\\usermanagement\\newuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BECFBC-9D9C-4FBD-9ED5-906E4469A9F9}|CastleLoginClient\\CastleLoginClient.csproj|c:\\users\\vizsga\\desktop\\castlegamebackend\\castleloginclient\\castleloginclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BECFBC-9D9C-4FBD-9ED5-906E4469A9F9}|CastleLoginClient\\CastleLoginClient.csproj|solutionrelative:castleloginclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\CastleLoginClient\\UserManagement\\NewUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CastleLoginClient\\UserManagement\\NewUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\CastleLoginClient\\UserManagement\\NewUserWindow.xaml.cs",
+              "RelativeToolTip": "CastleLoginClient\\UserManagement\\NewUserWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:08:53.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\CastleLoginClient\\UserManagement\\NewUserWindow.xaml",
+              "RelativeDocumentMoniker": "CastleLoginClient\\UserManagement\\NewUserWindow.xaml",
+              "ToolTip": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\CastleLoginClient\\UserManagement\\NewUserWindow.xaml",
+              "RelativeToolTip": "CastleLoginClient\\UserManagement\\NewUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-04T11:46:55.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\CastleLoginClient\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CastleLoginClient\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Vizsga\\Desktop\\castlegameBackend\\CastleLoginClient\\CastleLoginClient\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CastleLoginClient\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:27:29.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

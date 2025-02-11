@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\castlegameBackend",
+    "\\castlegameBackend\\DTOs",
+    "\\castlegameBackend\\Models"
+  ],
+  "SelectedNode": "\\castlegameBackend\\Models\\CastlegameContext.cs",
+  "PreviewInSolutionExplorer": false
+}
