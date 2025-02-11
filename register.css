@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+}
+.login-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Átlátszóság hozzáadása */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    opacity: 0.9; /* Kicsit átlátszó */
+    position: relative;
+    animation: slideIn 1s ease-out; /* Animáció hozzáadása */
+    display: flex; 
+    flex-direction: column; /* Elemek függőlegesen egymás alatt */
+    align-items: center; /* Középre igazítás vízszintesen */
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(100%); /* Jobbról kívülről indul */
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0); /* Az eredeti helyére kerül */
+        opacity: 0.9;
+    }
+}
+.login-box input {
+    width: 80%; /* Az input mezők szélessége a login-box-on belül */
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; /* Szöveg középre igazítása az input mezőkben */
+}
+.login-box button {
+    width: 80%; /* Az inputokkal egyforma szélesség */
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.9; /* Gomb átlátszóság */
+    transition: opacity 0.3s, transform 0.3s;
+    margin-top: 10px; /* Kis távolság az input mezők felett */
+}
+.login-box button:hover {
+    background-color: greenyellow;
+    opacity: 1; /* Hover állapotban teljesen látható */
+    transform: scale(1.05);
+}
