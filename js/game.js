@@ -21,9 +21,9 @@ const doorImage = new Image();
 doorImage.src = 'https://cdn.streamloots.com/uploads/5beeb9a487b681002fbd373e/fe0dff78-1d03-47a2-ab64-4bd9926f9a36.gif';
 
 const idleImage = new Image();
-idleImage.src = 'stand.gif';
+idleImage.src = '/kepek/stand.gif';
 const walkImage = new Image();
-walkImage.src = 'knigth.gif';
+walkImage.src = '/kepek/knigth.gif';
 
 // Karakter beállításai
 const karakter = {

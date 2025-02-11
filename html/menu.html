@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js" integrity="sha512-v8+bPcpk4Sj7CKB11+gK/FnsbgQ15jTwZamnBf/xDmiQDcgOIYufBo6Acu1y30vrk8gg5su4x0CG3zfPaq5Fcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/build/sha256.min.js"></script>
+    <script src="/js/GenerateSalt.js"></script>
+    <script src="/js/Login.js"></script>
+    <script src="/js/menu.js"></script>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/register.css">
+
+    <title>Kingdom</title>
+</head>
+<body>
+    <!-- Háttérvideó -->
+    <video id="backgroundVideo" autoplay loop muted>
+        <source src="/kepek/hattervideo.mp4" type="video/mp4">
+        A böngésződ nem támogatja a videók lejátszását.
+    </video>
+
+    <button class="settings-button" onclick="toggleSettingsMenu()">⚙️ Beállítások</button>
+
+    <div class="settings-menu" id="settingsMenu">
+        <label>
+            Fényerő:
+            <input type="range" id="brightnessControl" min="0.5" max="2" step="0.1" value="1" onchange="updateBrightness()">
+        </label>
+        <label>
+            Hangerő:
+            <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5" onchange="updateVolume()">
+        </label>
+        <button onclick="toggleFullScreen()">Teljes képernyő / Ablakos mód</button>
+    </div>
+
+    <div class="content">
+        <!-- Bejelentkező ablak -->
+        <div class="login-box">
+            <h2 class="text-light">Bejelentkezés</h2>
+            <input type="text" placeholder="Felhasználónév" required id="LoginName">
+            <input type="password" placeholder="Jelszó" required id="Password">
+            <input type="button" value="Bejelentkezes" id="Bejelentkezes" onclick="Login()">
+            <span class="text-light">Nincs még fiókod? <a href="register.html">Regisztrálj</a></span>
+        </div>
+    </div>
+</body>
+</html>
