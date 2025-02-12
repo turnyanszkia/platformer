@@ -9,7 +9,7 @@ body {
 canvas {
     background-color: #ffffff;
     border: 1px solid black;
-    background-image: url(/kepek/castleBackground.png);
+    background-image: url("kepek/castleBackground.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -30,7 +30,7 @@ canvas {
     position: absolute;
     top: 50px;
     right: 10px;
-    background-image: url(/kepek/beallit.gif);
+    background-image: url("kepek/beallit.gif");
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 300px;
