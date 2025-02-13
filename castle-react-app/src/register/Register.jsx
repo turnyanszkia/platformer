@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './register.css';  // CSS fájl importálása
+import { Link } from 'react-router-dom';
 
 const Register = () => {
   const [userName, setUserName] = useState('');
@@ -24,7 +25,7 @@ const Register = () => {
 
     // Axios kérés a regisztrációhoz
     axios
-      .post('http://localhost:5000/api/Registry', data, {
+      .post('http://localhost:5004/api/Registry', data, {
         headers: {
           'Content-Type': 'application/json',
         },

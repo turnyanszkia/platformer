@@ -9,24 +9,11 @@ const Login = () => {
 
   // Bejelentkezési logika
   const handleLogin = () => {
-    console.log(loginName + " " + password);
-    
-    const saltUrl = `http://localhost:5000/api/Login/SaltRequest/${loginName}`;
 
-    // Kérés a salt-hoz
-    axios.post(saltUrl)
-      .then((response) => {
-        let salt = response.data;
-        console.log(salt);
-        
-        // Hash generálása
-        let tmpHash = sha256(password + salt.toString());
-
-        // Bejelentkezés kérés
-        const loginUrl = "http://localhost:5000/api/Login";
+        const loginUrl = "http://localhost:5004/api/Login";
         const body = {
           loginName: loginName,
-          tmpHash: tmpHash,
+          tmpHash: password,
         };
         console.log(body);
 
@@ -43,18 +30,14 @@ const Login = () => {
               alert("Sikeres bejelentkezés!");
               
               // Átirányítás a játék oldalra
-              window.location.href = "game.html";
+              window.location.href = "/game";
             } else {
               alert("Hiba történt a bejelentkezéskor!");
             }
           })
           .catch((error) => {
             alert("Hiba történt a bejelentkezés során: " + error);
-          });
-      })
-      .catch((error) => {
-        alert("Hiba történt a salt lekérésekor: " + error);
-      });
+          }); 
   };
 
   return (

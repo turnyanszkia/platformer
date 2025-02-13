@@ -10,10 +10,9 @@ function PageRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Menu />} />
         <Route path="/game" element={<Game />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/ranklist" element={<Ranglista />} />
       </Routes>
     </BrowserRouter>)
