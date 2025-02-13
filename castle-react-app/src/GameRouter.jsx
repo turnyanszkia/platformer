@@ -1,5 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./menu/Menu";
+import Game from "./game/Game";
+import Register from "./register/Register";
+import Login from "./login/Login";
+import Ranglista from "./ranglista/Ranglista";
 
 function PageRouter() {
   
@@ -7,6 +11,10 @@ function PageRouter() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Menu />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/ranklist" element={<Ranglista />} />
       </Routes>
     </BrowserRouter>)
 }

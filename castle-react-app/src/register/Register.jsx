@@ -31,7 +31,7 @@ const Register = () => {
       })
       .then((response) => {
         alert('Sikeres regisztráció');
-        window.location.href = 'menu.html'; // Navigálás a bejelentkezési oldalra
+        window.location.href = '/'; // Navigálás a bejelentkezési oldalra
       })
       .catch((error) => {
         console.error('Regisztrációs hiba:', error);
@@ -70,7 +70,7 @@ const Register = () => {
           Regisztráció
         </button>
         <span className="text-light">
-          Már van fiókod? <a href="menu.html">Bejelentkezés</a>
+          Már van fiókod? <Link to={"/"}>Bejelentkezés</Link>
         </span>
       </div>
     </div>

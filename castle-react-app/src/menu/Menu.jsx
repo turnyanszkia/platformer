@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './menu.css';  // Biztosítsd, hogy a CSS fájlok elérhetők legyenek
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
   const [settingsMenuVisible, setSettingsMenuVisible] = useState(false);
@@ -94,7 +95,7 @@ const Menu = () => {
             // onClick={Login()}  -- Itt implementálni kell a Login funkciót
           />
           <span className="text-light">
-            Nincs még fiókod? <a href="register.html">Regisztrálj</a>
+            Nincs még fiókod? <Link to={"/register"}>Regisztráció</Link>
           </span>
         </div>
       </div>
